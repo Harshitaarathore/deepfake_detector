@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Deepfake QuickCheck</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<style>
+body{font-family:system-ui,Arial;margin:24px}
+.card{max-width:800px;margin:0 auto;padding:16px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.result{margin-top:16px;padding:12px;border-radius:8px}
+.high{background:#ffecec}
+.low{background:#ecffe9}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Deepfake QuickCheck (Hackathon Demo)</h1>
+<p>Upload an image (JPEG recommended) or a short video. This demo runs lightweight forensic checks (EXIF/ELA/Frame consistency).</p>
+
+
+<input type="file" id="fileInput" />
+<button id="analyzeBtn">Analyze</button>
+
+
+<div id="output"></div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
